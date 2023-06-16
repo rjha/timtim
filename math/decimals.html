@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Decimal Lesson </title>
+
+<style>
+
+/*
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.50;
+  font-size: 1.0em;
+  font-family: sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 3em 0 1em;
+}
+
+p,ul,ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid purple;
+  font-size: 0.75em;
+  font-family: sans-serif;
+
+}
+
+th,
+td {
+  padding: 7px;
+  text-align: center;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+blockquote {
+  border-left:2px solid olivedrab;  
+  padding: 10px;
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+<!-- Un-Minified version -->
+<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css">
+
+*/
+
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+ 
+
+</head>
+
+
+<script>
+MathJax = {
+  loader: {
+    load: ['input/asciimath', 'output/chtml']
+  },
+  asciimath: {
+    delimiters: [['$','$']]
+  }
+}
+</script>
+
+<!-- mathjx stuff -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js">
+</script>
+<!-- mathjx stuff -->
+
+
+<body>
+
+<h1> Place values for decimals </h1>
+
+<p> 
+We are using 10-base numbers so 10 is a special and unique value. 
+Remember the place values. The value of a digit in the number is decided by 
+the place values. The place value of digits after the decimal are  
+$ frac{1}{10} , frac{1}{100}, frac{1}{1000} $ etc. 
+
+</p>
+
+<table>
+
+  <tr> 
+
+    <td> Place value </td>
+    <td> 100</td>
+    <td> 10 </td>
+    <td> 1 </td>
+    <td> &nbsp; </td>
+    <td> $frac{1}{10}$</td>
+    <td> $frac{1}{100}$</td>
+    <td> $frac{1}{100}$</td>
+
+
+  </tr>
+  <tr> 
+
+    <td> &nbsp; </td>
+    <td>  &uarr;</td>
+    <td>  &uarr; </td>
+    <td>  &uarr; </td>
+    <td> &nbsp; </td>
+    <td>  &uarr;</td>
+    <td>  &uarr;</td>
+    <td>  &uarr;</td>
+
+
+  </tr>
+
+  <tr> 
+
+    <td> &nbsp; </td>
+    <td> 3</td>
+    <td> 2 </td>
+    <td> 5 </td>
+    <td> &#x2022; </td>
+    <td> 0</td>
+    <td> 5</td>
+    <td> 6</td>
+
+
+  </tr>
+
+</table>
+
+<h1> Convert decimals to fraction </h1>
+
+<p> Question - What is the equivalent fraction of 0.2? </p>
+
+Decimals are special fractions whose denominators are a power of 10.  A power 
+of 10 means 10 multiplied one or more times with itself, like 
+
+<ul>
+
+  <li> 10 </li>
+  <li> 10 $times$ 10 </li>
+  <li> 10 $times$ 10 $times$ 10 </li>
+
+</ul>
+
+So 10, 100 and 1000 etc. are powers of 10. To find the equivalent fraction,
+
+<ul>
+
+  <li> Find the number of digits after the dot; </li>
+  <li> We have one digit after the dot; in 0.2 </li>
+  <li> Hence denominator would be 1 followed by one zero, i.e. 10 </li>
+
+</ul>
+
+<blockquote>
+Answer is $frac{2}{10}$
+</blockquote>
+
+<h2> Exercise </h2>
+
+<p> Convert 0.043 into a fraction </p>
+
+<ul>
+
+  <li> How many digits are there after the dot? </li>
+  <li> What would be the denominator? </li>
+  
+</ul>
+
+
+<h1> Comparing decimals </h1>
+
+Decimals is a way to write the fraction parts. Any decimal number has an 
+integral part (whole number) and a fraction part. 
+
+<table>
+  <caption>
+    132.24567
+  </caption>
+  <thead> 
+    <tr>
+      <th>Integral part </th>
+      <th>Fraction part </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 132</td>
+      <td> 24567</td>
+    </tr>
+  </tbody>
+  
+</table>
+<p>
+  To compare two decimal number, compare the integral and the fraction parts.
+  There is no need to compare fraction parts If the integral part of one number 
+  is bigger than the integral part of other number. <br>
+  Like, 2.00 $gt$ 1.9983838838 (2 is always bigger than 1 $+$ any fraction) 
+
+</p>
+
+<p>
+  To compare decimal fractions, we need to find maximum number of digits after 
+  the dot in all the numbers.  To compare <b> 0.07 </b> and <b> 0.6981</b>
+
+  <ul>
+    <li>  0.07 has 2 digits after the dot </li>
+    <li>  0.6981 has 4 digits after the dot </li>
+    <li>  We should use 4 places to compare the two fractions </li>
+
+  </ul>
+
+  <!-- decimal with place value -->
+  <table>
+   
+      <tr>
+        <td> place value </td>
+        <td> $frac{1}{10}$</td>
+        <td> $frac{1}{100}$</td>
+        <td> $frac{1}{1000}$</td>
+        <td> $frac{1}{10000}$</td>
+        
+      </tr>
+
+    
+    <tr>
+      <td> .</td>
+      <td> 6</td>
+      <td> 9</td>
+      <td> 8</td>
+      <td> 1</td>
+    </tr>
+    <tr>
+      <td> .</td>
+      <td> 0</td>
+      <td> 7</td>
+      <td> 0</td>
+      <td> 0</td>
+    </tr>
+    <tr>
+      <td> &nbsp </td>
+      <td> &nbsp;</td>
+      <td> &nbsp;</td>
+      <td> Add zero &uarr;</td>
+      <td> Add zero &uarr;</td>
+      
+      </tr>
+  </table>
+
+  Which is bigger 0700 or 6981? 
+
+</p>
+
+<p>
+
+  2.718 $=>$ Fraction part is 0.718 and integral part is 2.0<br> 
+  2.718 $=> 2 + 0.718 $  <br> 
+  2.718 $=> 2 + frac{718}{1000} $ <br>
+
+
+</p>
+
+<h2> 9.08, 9.60, 17.3 </h2>
+
+
+<ol>
+  <li> first compare the integral parts</li>
+  <li> 17.3 is the biggest number </li>
+  <li> 9.08 and 9.60 has same integral parts</li>
+
+</ol>
+
+<h2> 5.02, 5.2, 5.22, 5.022 and 5.0002 </h2>
+
+
+
+<ol>
+  <li> compare the fractions</li>
+  <li> maximum number of digits after the dot is 4  </li>
+  <li> compare decimal fractions till 4 places</li>
+
+</ol>
+ 
+<h3> Can you spot the biggest fraction? </h3>
+  <!-- decimal with place value -->
+  <table>
+   
+    <tr>
+      <td> $frac{1}{10}$</td>
+      <td> $frac{1}{100}$</td>
+      <td> $frac{1}{1000}$</td>
+      <td> $frac{1}{10000}$</td>
+      
+    </tr>
+
+  
+  <tr>
+    <td> 0</td>
+    <td> 2</td>
+    <td> 0</td>
+    <td> 0</td>
+  </tr>
+  <tr>
+    <td> 2</td>
+    <td> 0</td>
+    <td> 0</td>
+    <td> 0</td>
+  </tr>
+  
+  <tr>
+    <td> 2</td>
+    <td> 2</td>
+    <td> 0</td>
+    <td> 0</td>
+  </tr>
+  <tr>
+    <td> 0</td>
+    <td> 2</td>
+    <td> 2</td>
+    <td> 0</td>
+  </tr>
+
+  <tr>
+    <td> 0</td>
+    <td> 0</td>
+    <td> 0</td>
+    <td> 2</td>
+  </tr>
+
+</table>
+
+
+
+<h1> Expanded form of decimals</h1>
+
+<p>
+
+  Multiply the place values and digits to get the expanded form. <br>
+  <b>17.32</b> = [1 $times$ 100 ] + [ 7 $times$ 10 ] + [ 3 $times$ $frac{1}{10}$ ] + [ 2 $times$ $frac{1}{100}$ ] <br>  
+  
+</p>
+
+
+<h1> Simplify fractions</h1>
+<p> 
+Big numbers can be written as product of small numbers. Product is just a fancy 
+name for multiplication. All numbers are products of prime numbers. Please check 
+if the number is divisible by prime numbers 2, 3, 5, 7 11, 13 etc.  
+For example, 
+
+<ul>
+  <li> 10 = 2 x 5 </li>
+  <li> 30 = 2 x <u>15 </u>, or 2 x 3 x 5 </li>
+  <li> 100 = 2 x <u>50</u> or 2 x 2 x <u>25</u> or 2 x 2 x 5 x 5 </li>
+
+</ul>
+
+
+
+so $frac{30}{100}$ can be expanded to
+$frac{2 times 3 times 5}{2 times 2 times 5 times 5}$ <br>
+
+The common numbers in the numerator and denominator can be cancelled. Here we 
+can cancel the numbers 2 and 5. That gives us, <br>
+
+
+$frac{cancel(2) times 3 times cancel(5)}{cancel(2) times 2 times cancel(5) times 5}$
+= $frac{3}{2 times 5}$
+= $frac{3}{10}$
+
+</p>
+
+<h1> First 100 prime numbers </h1>
+
+<table>
+  <caption> </caption>
+  <tr> 
+    <td> 2, <td> 
+    <td> 3, <td> 
+    <td> 5, <td> 
+    <td> 7, <td> 
+    <td> 11, <td> 
+    <td> 13, <td> 
+    <td> 17, <td> 
+  </tr>
+  <tr>
+
+    <td> 19, <td> 
+    <td> 23, <td> 
+    <td> 29, <td> 
+    <td> 31, <td> 
+    <td> 37, <td> 
+    <td> 41, <td> 
+    <td> 43, <td> 
+    </tr>
+
+    <tr> 
+      <td> 47, <td> 
+      <td> 53, <td> 
+      <td> 59, <td> 
+      <td> 61, <td> 
+      <td> 67, <td> 
+      <td> 71, <td> 
+      <td> 73, <td> 
+    </tr>
+    <tr>
+  
+      <td> 79, <td> 
+      <td> 83, <td> 
+      <td> 89, <td> 
+      <td> 97 <td> 
+      <td> &nbsp; <td> 
+      <td> &nbsp; <td> 
+      <td> &nbsp; <td> 
+      </tr>
+
+</table>
+
+
+
+
+<h1> Fractions involving powers of 10 </h1>
+
+<p>
+30 and 100 are each multiple of 10,
+30 = $3 times 10$ and  100 = $10 times 10$ <br>
+$frac{30}{100}$ = $frac{ 3 times 10 } {10 times 10}$ <br> 
+10  can be cancelled from both the Numerator and the denominator. <br>
+$frac{30}{100}$ = $frac{ 3 times cancel(10) } {10 times cancel(10)}$ = $frac{3}{10}$ <br>
+
+</p>
+
+<p>
+
+The fraction having numbers with zeros can be simplified by inspection. <br>
+<ul>
+  <li> $frac{300}{450}$ = $frac{30 cancel(0)} {45 cancel(0)}$ </li>
+  <li> $frac{70}{200}$ = $frac{7 cancel(0)} {20 cancel(0)}$ </li>
+  <li> $frac{1500}{2000}$ = $frac{15 cancel(0)cancel(0)} {20 cancel(0)cancel(0)}$ </li>
+</ul>
+
+<u> Remember, this only works for whole numbers. </u>
+
+
+
+<h1> Whole numbers are also decimals </h1>
+
+<ul>
+  <li> 5 is same as 5.000 </li>
+  <li> 15 is same as 15.00 </li>
+  <li> However 15 $ne$ 150 </li>
+</ul>
+
+  
+<h3> Question - Where can we add zeros without changing the number? </h3>
+
+<dl>
+
+<dt> <b> Left boundary </b> </dt>
+<dd> Start reading from the left, left boundary is where we hit a non-zero digit or dot </dd>
+<dt> <b> Right boundary </b> </dt>
+<dd> Right boundary is at the last nonzero digit after the dot or <u> the dot if it is only followed by zeros. </u>
+
+</dl>
+
+
+<h3> Examples </h3>
+
+
+<ul>
+  <li> 0.00  $abs(3205)$ 000 </li>
+  <li> 000$abs(150)$.000  </li>
+  <li> 000$abs(132.0004)$0 </li>
+
+</ul>
+Zeros can safely be added outside the boundaries.
+
+
+
+<h1> Multiply decimals by powers of 10 </h1>
+
+<p>
+-	Multiply a decimal by 10 and the dot moves to the right <br>
+-	The dot moves for all powers of 10! All we need to do is counting! 
+</p>
+
+<ul>
+  <li> 12.<u>3</u>456 x 10 = 12<u>3</u>.456 ($times 10$ and the dot moves one place to the right) </li>
+  <li> 12.<u>345</u>6 x 1000 = 12<u>345</u>.6 ($times 1000$ and the dot moves three places to the right) </li>
+</ul>
+
+
+
+<h1> Divide decimals by powers of 10 </h1>
+
+
+-	Divide a decimal by 10 and the dot moves to the left <br>
+-	The dot moves for all powers of 10! All we need to do is counting! 
+
+<ul>
+  <li> 1<u>2</u>.3456 $div$ 10 = 1.<u>2</u>3456 ($times frac{1}{10}$ and the dot moves one place to the left) </li>
+  <li> 1<u>234</u>.5678 $div$ 1000 = 1.<u>234</u>5678 ($times frac{1}{1000}$ and the dot moves three places to the left) </li>
+</ul>
+
+
+<h1> Decimal Addition </h1>
+
+<p> 
+Decimal addition is extremely simple. You just need to line up the dots of 
+different numbers. Do $326 + 37.50 + 208.75 $ 
+</p>
+
+
+<h1> Decimal Subtraction </h1>
+
+<p> 
+Decimal addition is extremely simple. You just need to line up the dots of 
+different numbers. Do $12.5 - 0.015$ 
+
+</p>
+
+
+
+<h1> Decimal Multiplication </h1>
+
+Decimal multiplication is extremely simple. 
+
+<ul>
+  <li> You multiplyt the numbers like a normal multiplication </li>
+  <li> Count the number of digits after the dot in each number </li>
+  <li> Add up the number of digits after the dot </li> 
+  <li> Move the dot left to that many places </li>
+  <li> use <u>zero</u> If you run out of digits </li>
+</ul>
+
+<h3> STEP 1 </h3>
+Do the normal multiplication <br>
+
+25.36  <br>
+$times$  38  <br>
+<hr>
+$square abs(2)abs(0)abs(2)abs(8)abs(8)$ <br>
+$square abs(7)abs(6)abs(0)abs(8)square$  <br>
+<hr>
+$square abs(9)abs(6)abs(3)abs(6)abs(8)$  <br>
+
+
+<h3> STEP 2 </h3>
+Count the total number of digits after the dot,
+<ol>
+  <li> 25.36 - 2 digits after the dot </li>
+  <li> 38 - No digits after the dot </li>
+  <li> Total is $2 + 0 = 2$ </li>
+</ol>
+
+<h3> STEP 3 </h3>
+Move the dot 2 places to the left 
+
+<blockquote>
+Answer is 963.<u>68 </u>
+</blockquote>
+
+
+0.0055  <br>
+$times$  6.34  <br>
+<hr>
+$square square square abs(2)abs(2)abs(0)$ <br>
+$square square abs(1)abs(6)abs(5) square$ <br>
+$square abs(3)abs(3)abs(0) square square$ <br>
+
+<hr>
+$square abs(3)abs(4)abs(8)abs(7)abs(0)$  <br>
+
+
+<blockquote>
+  Answer is .<u>034870</u>
+</blockquote>
+
+<h1> Decimal division </h1>
+
+<h2> Divisor is a power of 10 </h2>
+It is super easy to do the decimal divison with numbers like 10, 100 and 1000
+that are power of 10. These numbers have 1 followed by one or more zeros. All 
+you have to do is to move the dot to the left!! 
+
+<ul>
+  <li> 1<u>2</u>.3456 $div$ 10 = 1.<u>2</u>3456 ($times frac{1}{10}$ and the dot moves one place to the left) </li>
+  <li> 1<u>234</u>.5678 $div$ 1000 = 1.<u>234</u>5678 ($times frac{1}{1000}$ and the dot moves three places to the left) </li>
+</ul>
+
+<h2> Long division for decimals </h2>
+
+Before starting, please remember that, 
+
+<ol>
+  <li> 3 is same as 3.0 </li>
+  <li> Multiplying by 10 will shift the dot to the right </li>
+</ol>
+
+The rules are 
+
+<ol>
+  <li> Make the divisor a whole number by moving the dot (multiplying)</li>
+  <li> Move the dot the same number of places in dividend </li>
+  <li> <u> Mark the dot </u>(very very imp) </li>
+  <li> write zero if division cannot be performed, try 0.40026 $div$ 0.04 and 2.001 $div$ 0.4</li>
+</ol>
+
+<h3> 9.3 $div$ 3.1 </h3>
+
+<ol>
+  <li> Make the divisor, 3.1  a whole number by moving the dot to right, to make it 31</li>
+  <li> Move the dot the same number of places in dividend, 9.3 becomes 93 </li>
+</ol>
+
+$root(31)(93)$
+
+
+
+<h3> 195.3 $div$ 0.63 </h3>
+
+<ol>
+  <li> Make the divisor, 0.63  a whole number by moving the dot to right, to make it 63</li>
+  <li> Move the dot the same number of places in dividend, 195.3 becomes 19530 </li>
+</ol>
+
+$root(63)(19530)$
+
+
+
+<h3> 6 $div$ 0.4 </h3>
+
+<ol>
+  <li> Make the divisor, 0.4  a whole number by moving the dot to right, to make it 4</li>
+  <li> Move the dot the same number of places in dividend, 6 </li>
+  <li> Now remeber, 6  is also 6.00, do not be stuck on while working on whole numbers</li>
+  <li> So the dividend becomes 60.00</li>
+</ol>
+
+$root(4)(60.000)$
+
+
+<h3> 22 $div$ 7 </h3>
+
+<ol>
+  <li> Divisor is a whole number</li>
+  <li> Dividend is 22, i.e. 22.00000000</li>
+</ol>
+
+$root(7)(22.000)$
+
+
+</body>
+</html>
+
