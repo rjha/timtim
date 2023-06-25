@@ -327,6 +327,46 @@ Example,
 
 </table>
 
+<p> 
+3245 is less than 123456 because 123456 is the order of $10^5$ and 
+3245 is of order of $10^3$. When the numbers are of the same order, look at 
+the digits in the highest position. Hence 4000 is greater than 3999.  When 
+digits in the highest position are the same then look at next highest position 
+and so on. <br> <br>
+
+Like, 1200 and 1199 both are of the order of $10^3$ and both have 1 in the 
+$10^3$ position. However 1200 has 2 in the next position ( of $10^2$) and hence 
+it is bigger than 1199. 
+
+
+
+</p> 
+
+
+<h1> Combination of Digits </h1>
+
+<h2> Q. How many numbers can be made from digits, 1,2,3 & 4? </h2>
+
+<h3> Without repitition </h3>
+
+&lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp;<br>
+
+<ul>
+  <li> The first position can be filled in 4 ways</li>
+  <li> The second position can be filled in 3 ways</li>
+  <li> The third position can be filled in 2 ways</li>
+  <li> The fourth position can be filled in just 1 way (only one digit left)</li>
+  <li> Total combinations are 4 $times$ 3 $times$ 2 = 24 </li>
+</ul>
+
+<h3> With repitition </h3>
+
+&lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp; &lowbar;&nbsp; &nbsp;<br>
+
+<ul>
+  <li> For every position we  have 4 choices </li>
+  <li> Total combinations are 4 $times$ 4 $times$ 4 = 64 </li>
+</ul>
 
 
 
@@ -357,18 +397,26 @@ OR $10^7$ = $10^4$ $times$ $10^3$ <br>
 
 
 <blockquote>
-Question: Convert 7 Crores into Millions 
+Question: Convert 5 Crores into Millions 
 </blockquote>
 
 
-7 Crore = 7 $times$ $10^7$ = 7 $times$ $10^1$ $times$ $10^6$ = 70 Million 
+5 Crore = 5 $times$ $10^7$ = 5,00,00,000 (7 zeros) <br> 
+1 Million = 1,000, 000 so divide by 1,000,000 to get millions<br>
+= $frac{5,00,00,000}{1,000,000}$ = 50 Millions <br>
+
 
 
 <blockquote>
   Question: Convert 70 Millions into Lakhs
 </blockquote>
   
-70 Millions = 70 $times$ $10^6$ = 70 $times$ $10^1$ $times$ $10^5$ = 700 lakhs 
+70 Millions = 70 $times$ $10^6$ = 70 ,000,000 <br>
+1 Lakh = 1,00,000 <br>
+So to convert to Lakhs, divide by 1,00,000 <br>
+= $frac{70, 000, 000}{1,00,000}$ = 700 Lakhs <br>
+
+
   
 <blockquote>
   Question: Convert 5 Billions into Crores
@@ -377,7 +425,177 @@ Question: Convert 7 Crores into Millions
 5 Billions = 5 $times$ $10^9$ = 5 $times$ $10^2$ $times$ $10^7$ = 500 Crore 
 
 
+<h1> Estimations </h1>
+
+
+<h1> Properties of Numbers </h1>
+
+
+<h2> Set of Numbers </h2>
+
+Remember - Natural numbers are the numbers that you can count on fingers, 
+Like 1, 2, 3 , 4 .... etc. When we add zero to the set of natural numbers, 
+we get the set of Whole numbers. Suppose the red below represents the set of 
+whole numbers.<br> 
+
+
+The fractions, like $frac{1} {2}$  or $frac{3} {4}$ are outside the set of 
+whole numbers. If we want to include the fractions also then we have to include 
+both red and yellow.  <br> <br>
+
+
+<div> 
+  <svg viewBox="0 0 10 10" width="30%">
+    <circle cx="5" cy="5" r="4" fill="yellow" stroke-width="1.5" stroke="blue" fill="#fff"/>
+    <circle cx="5" cy="5" r="2" fill="red"/>
+  </svg>
+</div> 
+
+Suppose, we want decimals also. The set of decimals will be bigger than the set 
+of fractions. All decimals are not fractions. So to represent the set of decimals, 
+we have to include whole numbers, fractions and decimals. We show that by blue.
+The set of decimals have red, yellow as well as blue. 
+
+
+<h2> Closure   </h2>
+
+If We take two whole numbers and perform an operation on them then we get 
+a third whole number. Some examples are 
+
+<table>
+
+  <tr> 
+    <th> 1st Number </th>
+    <th>  2nd Number </th>
+    <th> Operation </th>
+    <th> Result  </th>
+    <th> CLOSE?  </th>
+  </tr>
+
+  <tr> 
+    <td> 2 </td>
+    <td> 3 </td>
+    <td> + </td>
+    <td> 5</td>
+    <td> YES</td>
+  </tr>
+
+
+  <tr> 
+    <td> 2 </td>
+    <td> 3 </td>
+    <td> - </td>
+    <td> -1 </td>
+    <td> NO</td>
+  </tr>
+
+  <tr> 
+    <td> 2 </td>
+    <td> 3 </td>
+    <td> $times$ </td>
+    <td> 6 </td>
+    <td> YES</td>
+  </tr>
+
+  <tr> 
+    <td> 2 </td>
+    <td> 3 </td>
+    <td> $div$ </td>
+    <td> $frac{2}{3}$</td>
+    <td> NO</td>
+  </tr>
+
+</table>
+
+
+If the result of the operation is also a whole number then the set of whole 
+numbers is closed under that operation and this property is called closure. 
+From the above table, we can see that Addition and Multiplication have 
+closure over whole numbers. 
+
+
+<h2> Commutative Law   </h2>
+
+When we add two or more whole numbers, the order of numbers do not matter for 
+the sum. Suppose, we want to add up 5, 8 and 7. It does not matter in what order 
+we write the sums, the result would be the same. 
+
+<ul>
+  <li> 5 + 7 + 8 = 20 </li>
+  <li> 5 + 8 + 7 = 20 </li>
+  <li> 8 + 7 + 5 = 20 </li>
+  <li> 8 + 5 + 7 = 20 </li>
+  <li> ....... </li>
+</ul>
+
+The same thing is applicable for multiplcation of whole numbers as well,
+
+<ul>
+  <li>3 x 4 x 5 = 60 </li>
+  <li>3 x 5 x 4 = 60 </li>
+  <li>5 x 4 x 3 = 60 </li>
+  <li>5 x 3 x 4 = 60 </li>
+  <li> ....... </li>
+</ul>
+
+
+<h2> Associative Law   </h2>
+
+Terms of factors of whole numbers can be associated in any way desired. 
+
+<ul> 
+
+  <li> 2 + (3+ 5) = (2+3) + 5</li>
+  <li> 77 + (2+ 3) = (77+2) + 3</li>
+</ul>
+
+The terms in the parantheses (brackets) should be evaluated first and then 
+plugged into the equation, e.g. <br>
+
+2 + (3 + 5) is 2 + (8) = 10 <br>
+(2 + 3) + 5 is (5) + 5 = 10 <br>
+
+The same applies for multiplication,
+
+<ul> 
+
+  <li> 2 x (3 x5) = 2 x (15)  = 30 </li>
+  <li> (2 x 3) x5 = (6) x 5  = 30 </li>
   
+</ul>
+
+How we make groups of terms using brackets do not matter for sum and multiplcation 
+of whole numbers. 
+
+
+<h2> Distributive Property of Multiplication   </h2>
+
+<h3> 4 $times$ 7 is same as 4 $times$ (5 + 2) </h3>
+
+<p> 
+If we are given, 4 $times$ (5 + 2) then we can first do (5+2) = 7 and then 
+multiply 4 by 7 to get the answer, i.e. 4 $times$ 7 = 28. However, we can also 
+this by multiplying 4 $times$ 5 and 4 $times$ 2 and then add them together.  
+<p>
+<p> 
+This is incredibly useful property for doing bigger multiplications. like, 28 $times$ 110 
+can be written as 28 $times$ (100 + 10) and then we can multiply 28 $times$ 100 and 
+28 $times$ 10 and add them up. The result is 2800 + 280 = 3080 and it is much easier 
+to do than the original multiplication. The multiplication can be distributed over 
+the plus operation. 
+</p> 
+
+
+<p> 
+
+  117 $times$ 13 = (100 + 17) $times$ (10 + 3) <br>
+  = (100 $times$ 10) + (100 $times$ 3) + (17 $times$ 10) + (17 $times$ 3) <br> 
+  = 1000 + 300 + 170 + 52 <br>
+  = 1470 + 52 <br>
+  = 1522 <br> 
+
+  </p> 
+
 
 
 </body>
